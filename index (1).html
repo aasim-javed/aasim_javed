@@ -1,0 +1,80 @@
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Asim Javed Portfolio</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+</head>
+
+<body>
+
+<header>
+    <h1>Asim Javed</h1>
+    <p>Dubai Tour Guide 🚀</p>
+</header>
+
+<nav>
+    <a href="#about">About</a>
+    <a href="#skills">Skills</a>
+    <a href="#portfolio">Projects</a>
+    <a href="#contact">Contact</a>
+</nav>
+
+<section id="about" class="fade-in">
+    <h2>About Me</h2>
+    <p>I’m Asim Javed, your Dubai guide—showing you the city’s wonders, hidden gems, and unforgettable experiences.</p>
+    <img src="images/asim.jpg" alt="Asim Javed" width="300">
+</section>
+
+<section id="skills" class="fade-in">
+    <h2>My Skills</h2>
+    <ul>
+        <li>UAE Expert Guidance</li>
+        <li>Transportation Services</li>
+        <li>Ticket Booking</li>
+    </ul>
+</section>
+
+<section id="portfolio" class="fade-in">
+    <h2>My Projects</h2>
+    <div class="projects">
+        <div class="project-card">
+            <img src="images/signature city.jpg" alt="signature City Tour">
+            <p>Dubai Signature City Tour </p>
+        </div>
+        <div class="project-card">
+            <img src="images/desert safari.jpg" alt=" Deser safari">
+            <p>Desert Safari & Adventure Experiences</p>
+        </div>
+        <div class="project-card">
+            <img src="images/group tour.jpg" alt="Group Tour">
+            <p>Tailored Luxury & Group Tours</p>
+        </div>
+    </div>
+</section>
+
+<section id="contact" class="fade-in">
+    <h2>Contact Me</h2>
+    <button onclick="showMessage()">Say Hello</button>
+    <button onclick="toggleDarkMode()">🌙 Dark Mode</button>
+
+    <!-- Contact Form Placeholder -->
+    <form id="contactForm" onsubmit="return false;">
+        <input type="text" placeholder="Your Name" required><br><br>
+        <input type="email" placeholder="Your Email" required><br><br>
+        <textarea placeholder="Your Message" required></textarea><br><br>
+        <button type="submit">Send Message</button>
+    </form>
+</section>
+
+<footer>
+    <p>Connect with me:</p>
+    <a href="https://facebook.com" target="_blank">Facebook</a> |
+    <a href="https://linkedin.com" target="_blank">LinkedIn</a> |
+    <a href="https://github.com" target="_blank">GitHub</a>
+</footer>
+
+<script src="game.js"></script>
+<script src="script.js"></script>
+</body>
+</html>
